@@ -14,26 +14,8 @@ class Human
     }
 }
 
-class Cat
-{
-    function sayHi()
-    {
-        echo "Meow\n";
-    }
-}
-
-class Dog
-{
-    function sayHi()
-    {
-        echo "Woof\n";
-    }
-}
-
 $h1 = new Human();
 $h1->name = "MD Anwar Sayeed Saif Kader"; // set
-$c1 = new Cat();
-$d1 = new Dog();
 
 // $h1->sayName();
 $h1->sayName();
